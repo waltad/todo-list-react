@@ -1,0 +1,33 @@
+.buttons {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .buttons {
+    grid-template-columns: 1fr;
+  }
+}
+
+.button__navigation {
+  border: none;
+  background-color: white;
+  color: teal;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.button__navigation:hover {
+  color: hsl(180, 100%, 35%);
+}
+
+.button__navigation:active {
+  color: hsl(180, 100%, 45%);
+}
+
+.button__navigation--disabled {
+  color: hsl(0, 0%, 80%);
+  pointer-events: none;
+}
