@@ -1,20 +1,19 @@
 import "./style.css";
 
-const Buttons = ({tasks, hideDoneTasks}) => {
-  if(tasks.lenght === 0) {
-    return null
-  }
-  
-  return (
+const Buttons = ({ tasks, hideDoneTasks }) => (
+  tasks.length > 0 && (
     <p className="buttons">
-      <botton className="button__navigation">
+      <button className="button__navigation">
 				{hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
-			</botton>
-			<botton className={`button__navigation${tasks.every(({done}) => done) ? " button__navigation--disabled" : ""}`}>
+			</button>
+			<button 
+        className={`button__navigation${tasks.every(({ done }) => done) ? " button__navigation--disabled" : ""}`}
+        disabled={tasks.every(({ done }) => done)}
+      >
 				Ukończ wszystkie
-			</botton>
+			</button>
     </p>
   )
-};
+);
 
 export default Buttons;

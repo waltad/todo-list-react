@@ -1,10 +1,10 @@
 import "./style.css"
 
-const Tasks = (props) => (
+const Tasks = ({tasks, hideDoneTasks}) => (
   <ul className="task__block">
-    {props.tasks.map(task => (
+    {tasks.map(task => (
       <li 
-        className={`${task.done & props.hideDoneTasks ? "task__item--hide" : "task__item"}`}
+        className={`${task.done & hideDoneTasks ? "task__item--hide" : "task__item"}`}
         key={task.id}
       >
         <button className="task__button task__button--toggleDone">
