@@ -1,6 +1,9 @@
 import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from "./Buttons";
+import Section from "./Section";
+import Header from "./Header";
+import Container from "./Container";
 
 const tasks = [
   {id: 1, content: "Go to the cinema", done: false},
@@ -11,26 +14,19 @@ const hideDoneTasks = false;
 
 function App() {
   return (
-    <main className="container">
-    <h1>Lista zadań</h1>
-    <section className="section">
-      <h2 className="section__title">Dodaj nowe zadanie</h2>
-
-      <div className="section__body">
-        <Form />
-      </div>
-    </section>
-
-    <section className="section">
-      <header className="section__header">
-        <h2 className="section__title">Lista zadań</h2>
-        <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks}/>
-      </header>
-      <div className="section__body">
-        <Tasks tasks={tasks} hideDoneTasks={hideDoneTasks}/>
-      </div>
-    </section>
-  </main>
+    <Container>
+      <Header title="Lista zadań" />
+      <Section
+        title="Dodaj nowe zadanie"
+        body={<Form />}
+      />
+      
+      <Section
+        title="Lista zadań"
+        body={<Tasks tasks={tasks} hideDoneTasks={hideDoneTasks}/>}
+        extraHeaderContent={<Buttons tasks={tasks} hideDoneTasks={hideDoneTasks}/>}
+      />
+    </Container>
   );
 }
 
