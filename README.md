@@ -1,7 +1,7 @@
 # TODO LIST
 ## Task list using React app.
 
-![TO-DO LIST PRESENTATION](%PUBLIC_URL%/introduction.gif)
+![TO-DO LIST PRESENTATION](public/Introduction.gif)
 
 ## Demo
 
