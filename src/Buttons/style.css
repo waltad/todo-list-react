@@ -10,7 +10,7 @@
   }
 }
 
-.button__navigation {
+.buttons__button {
   border: none;
   background-color: white;
   color: teal;
@@ -19,15 +19,15 @@
   transition: 0.3s;
 }
 
-.button__navigation:hover {
+.buttons__button__:hover {
   color: hsl(180, 100%, 35%);
 }
 
-.button__navigation:active {
+.buttons__button:active {
   color: hsl(180, 100%, 45%);
 }
 
-.button__navigation--disabled {
+.buttons__button--disabled {
   color: hsl(0, 0%, 80%);
   pointer-events: none;
 }
