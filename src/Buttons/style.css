@@ -14,12 +14,12 @@
   border: none;
   background-color: white;
   color: teal;
-  padding: 20px;
+  padding: 10px 20px;
   text-align: center;
   transition: 0.3s;
 }
 
-.buttons__button__:hover {
+.buttons__button:hover {
   color: hsl(180, 100%, 35%);
 }
 
