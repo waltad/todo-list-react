@@ -14,9 +14,15 @@
   border: none;
   background-color: white;
   color: teal;
-  padding: 10px 20px;
+  padding: 20px;
   text-align: center;
   transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+  .buttons__button {
+    padding: 0 0 20px 0;
+  }
 }
 
 .buttons__button:hover {
@@ -27,7 +33,6 @@
   color: hsl(180, 100%, 45%);
 }
 
-.buttons__button--disabled {
+.buttons__button:disabled {
   color: hsl(0, 0%, 80%);
-  pointer-events: none;
 }
