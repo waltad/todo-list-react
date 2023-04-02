@@ -16,6 +16,7 @@
   color: teal;
   padding: 20px;
   text-align: center;
+  cursor: pointer;
   transition: 0.3s;
 }
 
