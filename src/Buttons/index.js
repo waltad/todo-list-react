@@ -1,10 +1,10 @@
 import "./style.css";
 
-const Buttons = ({ tasks, hideDoneTasks }) => (
+const Buttons = ({ tasks, hideDone }) => (
   tasks.length > 0 && (
     <p className="buttons">
       <button className="buttons__button">
-				{hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
+				{hideDone ? "Pokaż" : "Ukryj"} ukończone
 			</button>
 			<button 
         className={`buttons__button${tasks.every(({ done }) => done) ? " buttons__button--disabled" : ""}`}
