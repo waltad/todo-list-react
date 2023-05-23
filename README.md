@@ -1,18 +1,20 @@
 # TODO LIST
-## Task list using React app.
+
+## Task list using React app
 
 ![TO-DO LIST PRESENTATION](public/Introduction.gif)
 
 ## Demo
 
-https://waltad.github.io/todo-list-react/
+<https://waltad.github.io/todo-list-react/>
 
-# Description
+## Description
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Project made as part of training exercises in Java Script and tools supporting work in the frontend.
 
 ## Instruction
+
 1. Enter the task.
 2. Confirm the task and it will appear in the window at the bottom.
 3. Repeat steps 1 and 2 until you have entered all tasks.
@@ -33,7 +35,6 @@ TODO LIST uses a number of open source projects to work properly:
 - [React] - JavaScript library for building JavaScript apps in a browser
 - [BEM] - Blocks, Elements and Modifiers - CSS block naming technology that takes page layout into account
 - [Media queries] - allow you to apply CSS styles depending on the presence or value of device characteristics
-
 
 ## Available Scripts
 
