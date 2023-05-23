@@ -12,6 +12,29 @@ https://waltad.github.io/todo-list-react/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Project made as part of training exercises in Java Script and tools supporting work in the frontend.
 
+## Instruction
+1. Enter the task.
+2. Confirm the task and it will appear in the window at the bottom.
+3. Repeat steps 1 and 2 until you have entered all tasks.
+4. Click the icon on the left if you have completed the task.
+5. Click the icon on the right if you want to delete the task.
+6. If there are any tasks to do, the top menu will appear.
+    - Click the "Hide Completed" button and the completed tasks will disappear from the screen.
+    - Clicking the button again will show all tasks.
+    - Clicking the Complete All button will display all tasks as completed and will disable this button.
+
+## Tech
+
+TODO LIST uses a number of open source projects to work properly:
+
+- [HTML] - HyperText Markup Language
+- [JS] - JavaScript
+- [CSS] - Cascading Style Sheets
+- [React] - JavaScript library for building JavaScript apps in a browser
+- [BEM] - Blocks, Elements and Modifiers - CSS block naming technology that takes page layout into account
+- [Media queries] - allow you to apply CSS styles depending on the presence or value of device characteristics
+
+
 ## Available Scripts
 
 In the project directory, you can run:
