@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Buttons = styled.p`
+export const StyledButtons = styled.p`
   display: grid;
   grid-template-columns: auto auto;
   margin: 0;

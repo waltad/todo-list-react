@@ -1,8 +1,8 @@
-import { Buttons, Button } from "./styled";
+import { StyledButtons, Button } from "./styled";
 
 const UpperButtons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
   tasks.length > 0 && (
-    <Buttons>
+    <StyledButtons>
       <Button
         onClick={toggleHideDone}
       >
@@ -14,7 +14,7 @@ const UpperButtons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
       >
 				Ukończ wszystkie
 			</Button>
-    </Buttons>
+    </StyledButtons>
   )
 );
 
