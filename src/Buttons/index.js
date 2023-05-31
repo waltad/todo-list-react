@@ -1,6 +1,6 @@
 import { StyledButtons, Button } from "./styled";
 
-const UpperButtons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
+const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
   tasks.length > 0 && (
     <StyledButtons>
       <Button
@@ -18,4 +18,4 @@ const UpperButtons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
   )
 );
 
-export default UpperButtons;
+export default Buttons;
