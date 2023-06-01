@@ -1,4 +1,7 @@
-html {
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+  html {
   box-sizing: border-box;
 }
 
@@ -11,3 +14,4 @@ body {
   background-color: #ddd;
   word-break: break-word;
 }
+`;
