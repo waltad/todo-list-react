@@ -7,7 +7,7 @@ export const StyledSection = styled.section`
 `;
 
 export const Header = styled.header`
-display: grid;
+  display: grid;
   grid-template-columns: 1fr auto;
   justify-content: center;
   border-bottom: 1px solid #ddd;

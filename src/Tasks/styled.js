@@ -33,7 +33,7 @@ export const Button = styled.button`
   padding: 0;
   cursor: pointer;
 
-	${({toggleDone}) => toggleDone && css`
+	${({ toggleDone }) => toggleDone && css`
 		background-color: hsl(120, 100%, 30%);
 		transition: 0.3s;
 
@@ -46,7 +46,7 @@ export const Button = styled.button`
 		}
 	`}
 
-	${({remove}) => remove && css`
+	${({ remove }) => remove && css`
 		border: none;
 		background-color: hsl(0, 100%, 45%);
 		transition: 0.3s;
