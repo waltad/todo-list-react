@@ -13,19 +13,19 @@ export const Input = styled.input`
 
 export const Button = styled.button`
   border: none;
-  background-color: teal;
+  background-color: ${({theme}) => theme.mainColor};
   color: white;
   padding: 10px;
   cursor: pointer;
   transition: 0.5s;
 
   &:hover {
-    background-color: hsl(180, 100%, 30%);
+    filter: brightness(120%);
     transform: scale(1.1);
   }
 
   &:active {
-    background-color: hsl(180, 100%, 35%);
+    filter: brightness(140%);
   }
 
   @media (max-width: 767px) {

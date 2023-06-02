@@ -10,8 +10,8 @@ export const GlobalStyle = createGlobalStyle`
 	}
 
 	body {
-		font-family: 'Ubuntu', sans-serif;
-		background-color: #ddd;
+		font-family: ${({theme}) => theme.font};
+		background-color: ${({theme}) => theme.backgroundColor};
 		word-break: break-word;
 	}
 `;

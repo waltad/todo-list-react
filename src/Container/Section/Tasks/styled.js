@@ -34,29 +34,29 @@ export const Button = styled.button`
   cursor: pointer;
 
 	${({ toggleDone }) => toggleDone && css`
-		background-color: hsl(120, 100%, 30%);
+		background-color: ${({theme}) => theme.taskDoneColor};
 		transition: 0.3s;
 
 		&:hover {
-			background-color: hsl(120, 100%, 35%);
+			filter: brightness(120%);
 		}
 
 		&:active {
-  		background-color: hsl(120, 100%, 40%);
+  		filter: brightness(140%);
 		}
 	`}
 
 	${({ remove }) => remove && css`
 		border: none;
-		background-color: hsl(0, 100%, 45%);
+		background-color: ${({theme}) => theme.taskRemoveColor};
 		transition: 0.3s;
 
 		&:hover {
-			background-color: hsl(0, 100%, 60%);
+			filter: brightness(120%);
 		}
 
 		&:active {
-			background-color: hsl(0, 100%, 70%);
+			filter: brightness(140%);
 		}
 	`}
 `;
