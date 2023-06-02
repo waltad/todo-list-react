@@ -1,8 +1,8 @@
-import Form from "./Form";
-import Tasks from "./Tasks";
-import Buttons from "./Buttons";
-import Section from "./Section";
-import Header from "./Header";
+import Form from "./Container/Section/Form";
+import Tasks from "./Container/Section/Tasks";
+import Buttons from "./Container/Section/Buttons";
+import Section from "./Container/Section";
+import Header from "./Container/Header";
 import Container from "./Container";
 import { useState } from "react";
 import { useTasks } from "./useTasks";
