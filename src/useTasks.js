@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 
-export const useTasks = (key) => {
-	const localStorageKey = key;
-	const getInitialTasks = () => {
+export const useTasks = (localStorageKey) => {
+		const getInitialTasks = () => {
 		const tasksLocalStorage = JSON.parse(localStorage.getItem(localStorageKey));
 		return tasksLocalStorage || [];
 	};
@@ -41,5 +40,5 @@ export const useTasks = (key) => {
 		]);
 	};
 
-	return [tasks, removeTask, toggleTaskDone, setAllDone, addNewTask];
+	return {tasks, removeTask, toggleTaskDone, setAllDone, addNewTask};
 };
