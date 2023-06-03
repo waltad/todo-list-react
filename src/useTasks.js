@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
-export const useTasks = (localStorageKey) => {
+export const useTasks = (key) => {
+		const localStorageKey = key;
 		const getInitialTasks = () => {
 		const tasksLocalStorage = JSON.parse(localStorage.getItem(localStorageKey));
 		return tasksLocalStorage || [];
