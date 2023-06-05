@@ -32,7 +32,7 @@ export const Button = styled.button`
   }
 
   &:disabled {
-    color: hsl(0, 0%, 80%);
+    color: grey;
     cursor: not-allowed;
   }
 `;
