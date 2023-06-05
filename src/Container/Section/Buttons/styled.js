@@ -13,7 +13,7 @@ export const StyledButtons = styled.p`
 export const Button = styled.button`
   border: none;
   background-color: white;
-  color: ${({theme}) => theme.mainColor};
+  color: ${({ theme }) => theme.mainColor};
   padding: 20px;
   text-align: center;
   cursor: pointer;
@@ -24,11 +24,11 @@ export const Button = styled.button`
   }
 
   &:hover {
-    filter: brightness(120%);;
+    filter: brightness(120%);
   }
 
   &:active {
-    filter: brightness(140%);;
+    filter: brightness(140%);
   }
 
   &:disabled {
