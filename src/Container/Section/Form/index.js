@@ -3,9 +3,9 @@ import { Button, Input, StyledForm } from "./styled";
 
 const Form = ({ addNewTask }) => {
   const [newTaskContent, setNewTaskContent] = useState("");
-  const inputRef = useRef("");
-
-  const focusInput = () => {
+  const inputRef = useRef(null);
+  const setClearFocus = () => {
+    setNewTaskContent("");
     inputRef.current.focus();
   };
 
@@ -14,8 +14,9 @@ const Form = ({ addNewTask }) => {
     const trimmedNewTaskContent = newTaskContent.trim();
     if (trimmedNewTaskContent) {
       addNewTask(trimmedNewTaskContent);
+      setClearFocus();
     }
-    setNewTaskContent("");
+    setClearFocus();
   };
 
   return (
@@ -26,8 +27,9 @@ const Form = ({ addNewTask }) => {
         placeholder="Co jest do zrobienia?"
         onChange={({ target }) => setNewTaskContent(target.value)}
         ref={inputRef}
+        autoFocus
       />
-      <Button onClick={focusInput}>Dodaj zadanie</Button>
+      <Button>Dodaj zadanie</Button>
     </StyledForm>
   );
 };
