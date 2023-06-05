@@ -21,9 +21,9 @@ Project made as part of training exercises in Java Script and tools supporting w
 4. Click the icon on the left if you have completed the task.
 5. Click the icon on the right if you want to delete the task.
 6. If there are any tasks to do, the top menu will appear.
-    - Click the "Hide Completed" button and the completed tasks will disappear from the screen.
-    - Clicking the button again will show all tasks.
-    - Clicking the Complete All button will display all tasks as completed and will disable this button.
+   - Click the "Hide Completed" button and the completed tasks will disappear from the screen.
+   - Clicking the button again will show all tasks.
+   - Clicking the Complete All button will display all tasks as completed and will disable this button.
 
 ## Tech
 
@@ -32,7 +32,12 @@ TODO LIST uses a number of open source projects to work properly:
 - [HTML] - HyperText Markup Language
 - [JS] - JavaScript
 - [CSS] - Cascading Style Sheets
-- [React] - JavaScript library for building JavaScript apps in a browser
+- [React] - JavaScript library for building JavaScript apps in a browser:
+  * syled-components,
+  * hooks,
+  * custom-hooks,
+  * GlobalStyles,
+  * theme,
 - [BEM] - Blocks, Elements and Modifiers - CSS block naming technology that takes page layout into account
 - [Media queries] - allow you to apply CSS styles depending on the presence or value of device characteristics
 
