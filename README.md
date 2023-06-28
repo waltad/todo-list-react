@@ -38,6 +38,7 @@ TODO LIST uses a number of open source projects to work properly:
   * custom-hooks,
   * GlobalStyles,
   * theme,
+  [Redux] - an open-source JavaScript library for managing and centralizing application state
 - [BEM] - Blocks, Elements and Modifiers - CSS block naming technology that takes page layout into account
 - [Media queries] - allow you to apply CSS styles depending on the presence or value of device characteristics
 
