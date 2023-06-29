@@ -7,7 +7,8 @@ import { nanoid } from "@reduxjs/toolkit";
 const Form = () => {
   const [newTaskContent, setNewTaskContent] = useState("");
   const inputRef = useRef(null);
-  const setClearFocus = () => {
+
+  const clearFocusInput = () => {
     setNewTaskContent("");
     inputRef.current.focus();
   };
@@ -16,18 +17,20 @@ const Form = () => {
 
   const onFormSubmit = (event) => {
     event.preventDefault();
+
     const trimmedNewTaskContent = newTaskContent.trim();
+
     if (trimmedNewTaskContent) {
-      
+
       dispatch(addTask({
         content: trimmedNewTaskContent,
         done: false,
         id: nanoid(),
       }));
 
-      setClearFocus();
+      clearFocusInput();
     }
-    setClearFocus();
+    clearFocusInput();
   };
 
   return (
