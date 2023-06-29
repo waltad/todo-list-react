@@ -16,7 +16,7 @@ const Buttons = () => {
           Ukończ wszystkie
         </Button>
       </StyledButtons>
-    )};
+    )}
     </>
   );
 };
