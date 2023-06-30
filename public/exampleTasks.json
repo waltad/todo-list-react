@@ -1,37 +1,32 @@
-{
-  "tasks": {
-    "tasks": [
-      {
-        "content": "Go to the cinema",
-        "done": false,
-        "id": "CN3eARxTQWQzSyO9R5L0r"
-      },
-      {
-        "content": "Walk the dog",
-        "done": false,
-        "id": "A6b9BKu-pN8yvpaUSLOEi"
-      },
-      {
-        "content": "Cook lunch",
-        "done": false,
-        "id": "MRRtkMLGLkYbW3hSeB-Nh"
-      },
-      {
-        "content": "Do homework",
-        "done": false,
-        "id": "048woriwIITt2ZFNzY-wy"
-      },
-      {
-        "content": "Buy flowers",
-        "done": false,
-        "id": "nHc5eixnOSb4DLTwHPzIi"
-      },
-      {
-        "content": "Smile",
-        "done": false,
-        "id": "NXom9lhRHo5_akX4E68K3"
-      }
-    ],
-    "hideDone": false
+[
+  {
+    "content": "Go to the cinema",
+    "done": false,
+    "id": "CN3eARxTQWQzSyO9R5L0r"
+  },
+  {
+    "content": "Walk the dog",
+    "done": false,
+    "id": "A6b9BKu-pN8yvpaUSLOEi"
+  },
+  {
+    "content": "Cook lunch",
+    "done": false,
+    "id": "MRRtkMLGLkYbW3hSeB-Nh"
+  },
+  {
+    "content": "Do homework",
+    "done": false,
+    "id": "048woriwIITt2ZFNzY-wy"
+  },
+  {
+    "content": "Buy flowers",
+    "done": false,
+    "id": "nHc5eixnOSb4DLTwHPzIi"
+  },
+  {
+    "content": "Smile",
+    "done": false,
+    "id": "NXom9lhRHo5_akX4E68K3"
   }
-}
+]
