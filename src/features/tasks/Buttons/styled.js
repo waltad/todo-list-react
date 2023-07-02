@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledButtons = styled.p`
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   margin: 0;
 
   @media (max-width: 767px) {
