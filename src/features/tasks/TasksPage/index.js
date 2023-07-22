@@ -6,8 +6,8 @@ import Header from "../../../common/Header";
 import Container from "../../../common/Container";
 
 function TasksPage() {
-    return (
-      <Container>
+  return (
+    <Container>
       <Header title="Lista zadań" />
       <Section
         title="Dodaj nowe zadanie"
@@ -24,7 +24,7 @@ function TasksPage() {
         }
       />
     </Container>
-    );
+  );
 };
 
 export default TasksPage;
