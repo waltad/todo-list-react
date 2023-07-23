@@ -6,11 +6,6 @@ export const StyledForm = styled.form`
   grid-gap: 20px;
 `;
 
-export const Input = styled.input`
-  padding: 10px;
-  border: 1px solid #ddd;
-`;
-
 export const Button = styled.button`
   border: none;
   background-color: ${({ theme }) => theme.mainColor};
