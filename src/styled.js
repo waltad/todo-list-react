@@ -7,6 +7,7 @@ export const StyledNavLink = styled(NavLink).attrs(() => ({
   activeClassName,
 }))`
   color: white;
+  text-decoration: none;
   &.${activeClassName} {
     font-weight: bold;
   }
@@ -15,11 +16,12 @@ export const StyledNavLink = styled(NavLink).attrs(() => ({
 export const StyledLi = styled.li`
   list-style-type: none;
   text-align: center;
+  padding: 0 20px 0 20px;
 `;
 
 export const StyledUl = styled.ul`
   background-color: ${({ theme }) => theme.mainColor};
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: center;
   padding: 20px;
 `;
