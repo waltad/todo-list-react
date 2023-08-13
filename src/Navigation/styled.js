@@ -10,6 +10,7 @@ export const StyledNavLink = styled(NavLink).attrs(() => ({
   text-decoration: none;
   &.${activeClassName} {
     font-weight: bold;
+    border-bottom: 1px solid;
   }
 `;
 
