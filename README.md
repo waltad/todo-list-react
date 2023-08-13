@@ -33,12 +33,15 @@ TODO LIST uses a number of open source projects to work properly:
 - [JS] - JavaScript
 - [CSS] - Cascading Style Sheets
 - [React] - JavaScript library for building JavaScript apps in a browser:
-  * syled-components,
-  * hooks,
-  * custom-hooks,
-  * GlobalStyles,
-  * theme,
-- [Redux] - an open-source JavaScript library for managing and centralizing application state
+  - syled-components,
+  - hooks,
+  - custom-hooks,
+  - GlobalStyles,
+  - theme,
+- [React Router]: HashRouter, Switch, Route, Redirect
+- [Redux] - an open-source JavaScript library for managing and centralizing application state:
+- [Redux-Saga] - An intuitive Redux side effect manager
+- [Redux-Toolkit]
 - [BEM] - Blocks, Elements and Modifiers - CSS block naming technology that takes page layout into account
 - [Media queries] - allow you to apply CSS styles depending on the presence or value of device characteristics
 
