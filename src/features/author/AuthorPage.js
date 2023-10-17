@@ -27,7 +27,7 @@ function AuthorPage() {
               Lubię również literaturę i filmy sciens-fiction 👽 i fantasy 🧙‍♂️🧙‍♀️.
             </p>
             <p>
-              Czasem gram na gitarze 🎸 i śpiewam a czsem tańczę 🕺.
+              Czasem gram na gitarze 🎸 i śpiewam a czasem tańczę 🕺.
               Nie mam wię czasu na nudę.
             </p>
           </>
